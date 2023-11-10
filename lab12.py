@@ -23,6 +23,9 @@ def make_matrix(t):
 
 
 def Line(t):
+    if t < 0:
+        print('Введите положительно число')
+        return 
     matrix = make_matrix(t)
     print("Начальная матрица: ")
     print(matrix)
