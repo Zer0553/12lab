@@ -53,9 +53,9 @@ def Line(t):
     print('Для повторного апуска напишите новое число :')
 
 
+print('Введите t - кол-во знаков после запятой: ')
 while True:
     try:
-        print('Введите t - кол-во знаков после запятой: ')
         Line(int(input()))
     except ValueError:
         print('Введите чилсло')
