@@ -55,6 +55,7 @@ def Line(t):
 
 while True:
     try:
+        print('Введите t - кол-во знаков после запятой: ')
         Line(int(input()))
     except ValueError:
         print('Введите чилсло')
